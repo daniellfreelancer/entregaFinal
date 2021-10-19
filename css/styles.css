@@ -94,7 +94,7 @@ html {
 }
 
 .header nav div ul .boton-menu:hover {
-  background-color: rgba(96, 211, 148, 0.35);
+  background-color: #ff9b85ff;
 }
 
 .header nav a .img-menu {
@@ -111,25 +111,25 @@ html {
 }
 
 .titulo-recetario-contacto {
-  background-color: rgba(255, 155, 133, 0.35);
+  background-color: rgba(255, 155, 133, 0.55);
   text-align: center;
   margin: 5px;
 }
 
 .titulo-recetario-recetas {
-  background-color: rgba(96, 211, 148, 0.35);
+  background-color: rgba(96, 211, 148, 0.55);
   text-align: center;
   margin: 5px;
 }
 
 .titulo-canal {
-  background-color: rgba(238, 95, 85, 0.35);
+  background-color: rgba(238, 95, 85, 0.55);
   text-align: center;
   margin: 5px;
 }
 
-.titulo-yt {
-  background-color: rgba(255, 216, 125, 0.35);
+.titulo-historia {
+  background-color: rgba(255, 216, 125, 0.55);
   text-align: center;
   margin: 5px;
 }
@@ -147,6 +147,9 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 30px;
+  margin: auto;
+  text-align: center;
 }
 
 .main-area section div a {

@@ -82,7 +82,7 @@ html {
                     text-align:center;
                 }
                 .boton-menu:hover {
-                    background-color: rgba(96, 211, 148, 0.350);
+                    background-color: #ff9b85ff;
                 }        
             } 
         }
@@ -100,27 +100,28 @@ html {
 
 //Separador principal
 .titulo-recetario-contacto {
-    background-color: rgba(255, 155, 133, 0.350);
+    background-color: rgba(255, 155, 133, 0.550);
     text-align: center;
     margin: 5px;
 }
 .titulo-recetario-recetas {
-    background-color: rgba(96, 211, 148, 0.350);
+    background-color: rgba(96, 211, 148, 0.550);
     text-align: center;
     margin: 5px;
 }
 
 .titulo-canal {
-    background-color: rgba(238, 95, 85, 0.350);
+    background-color: rgba(238, 95, 85, 0.550);
     text-align: center;
     margin: 5px;    
 }
 
-.titulo-yt {
-    background-color: rgba(255, 216, 125, 0.350);
+.titulo-historia {
+    background-color: rgba(255, 216, 125, 0.550);
     text-align: center;
-    margin: 5px;
+    margin: 5px
 }
+
     
 
 // Main
@@ -135,6 +136,9 @@ html {
             margin: 10px 30px;
             grid-auto-flow: dense;
             justify-content: center;
+            margin-top: 30px;
+            margin:auto;
+            text-align: center;
         }
         div {
             a {
@@ -225,11 +229,6 @@ html {
 
             }
         }
-
-
-
-
-
     }
 }
 
